@@ -87,6 +87,7 @@ namespace ADMINISTRACION
             this.cboProovedor.Name = "cboProovedor";
             this.cboProovedor.Size = new System.Drawing.Size(160, 23);
             this.cboProovedor.TabIndex = 5;
+            this.cboProovedor.SelectedIndexChanged += new System.EventHandler(this.cboProovedor_SelectedIndexChanged);
             // 
             // txtPrecio
             // 

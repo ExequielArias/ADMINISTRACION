@@ -33,5 +33,11 @@ namespace ADMINISTRACION
         {
             this.Close();
         }
+
+        private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmReporte reporte = new frmReporte();
+            reporte.ShowDialog(); 
+        }
     }
 }

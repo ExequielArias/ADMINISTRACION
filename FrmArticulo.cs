@@ -104,5 +104,10 @@ namespace ADMINISTRACION
                 MessageBox.Show("No existe ese articulo", "Error"); 
             }
         }
+
+        private void cboProovedor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
